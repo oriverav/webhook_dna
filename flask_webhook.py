@@ -8,7 +8,7 @@ app = Flask(__name__)
 def respond():
 	print(request.json)
 	print(request.json['ciscoDnaEventLink'])
-	return Response(status=400) 
+	return Response(status=200)
 
 # The app will run in all the IPs of your computer in port 5000 by default.
 # App will be running with HTTPS
